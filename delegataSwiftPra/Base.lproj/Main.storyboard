@@ -43,7 +43,6 @@
         <!--Inner View Controller-->
         <scene sceneID="BRg-aK-i0S">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="UW3-e8-kaB" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="wrJ-7q-3vg" customClass="InnerViewController" customModule="delegataSwiftPra" customModuleProvider="target" sceneMemberID="viewController">
                     <button key="view" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0C0-t9-WvL">
                         <rect key="frame" x="0.0" y="0.0" width="240" height="204"/>
@@ -54,6 +53,7 @@
                         </connections>
                     </button>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UW3-e8-kaB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="763" y="452"/>
         </scene>

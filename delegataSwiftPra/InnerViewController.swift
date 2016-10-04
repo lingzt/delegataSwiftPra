@@ -18,7 +18,7 @@ class InnerViewController: UIViewController {
     @IBAction func displayOnOuterViewController(sender: AnyObject) {
         print("button pressed")
         
-        self.delegate = self.parentViewController as! OuterViewController        
+//        self.delegate = self.parentViewController as! OuterViewController
         delegate?.changeLabel()
     }
     

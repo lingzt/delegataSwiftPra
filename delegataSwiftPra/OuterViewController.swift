@@ -14,7 +14,8 @@ class OuterViewController: UIViewController, InnerVCDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        var vc = self.childViewControllers[0] as! InnerViewController
+        vc.delegate = self
     }
     
     func changeLabel(){
